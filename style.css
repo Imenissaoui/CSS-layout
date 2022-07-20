@@ -1,0 +1,210 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(251, 251, 251);
+  font-family: Arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* Links inside the navbar*/
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.logo img {
+  width: 260px;
+  margin-top: 10px;
+}
+/* the dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+/*dropdown button*/
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: grey;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/* add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+/* dropdown contact (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  color: black;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+/*Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.icon {
+  margin-top: 50px;
+  text-align: center;
+}
+.tit {
+  color: #00b39b;
+  font-size: oboto, Arial, sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.para2 {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.para2 p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #747474;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 1.5;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.container h2 {
+  margin-bottom: 20px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: large;
+}
+.selct1 {
+  margin-top: 20px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  border-bottom: 3px solid #fff;
+}
+.selct1 option {
+  color: black;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #3d83df;
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: large;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #747474;
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: large;
+}
+
+div:where(.card1, .card2, .card3) {
+  width: 25%;
+  padding: 25px;
+}
+
+.bigbox {
+  display: flex;
+  width: 77%;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.box1 {
+  color: #00b39b;
+  width: 30%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.box1 h1 {
+  font-size: 1.625rem;
+  color: #00b39b;
+  margin: 1em 0;
+  font-weight: 300;
+  letter-spacing: -0, 3px;
+}
+.box2 {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 62%;
+  fill: hsla(0, 0%, 67%, 0.7, 0.6);
+  margin-top: 20px;
+  opacity: 0.3;
+  padding: 5px 0 5px 5px;
+}
+.box2 a svg {
+  width: 150px;
+  height: 20px;
+}
+.box2 a {
+  width: 150px;
+  height: 20px;
+}
+.box2 a :hover {
+  fill: rgb(0, 231, 146);
+  opacity: 1;
+}
+
+.bootstrap {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
